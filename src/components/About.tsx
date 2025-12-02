@@ -4,44 +4,37 @@ import { GraduationCap, Code, Database, Zap, Award, TrendingUp } from 'lucide-re
 const About = () => {
   const timeline = [
     {
-      year: '2019',
-      title: 'B.Com Graduate',
-      description: 'Completed Bachelor of Commerce with a focus on business fundamentals',
+      year: '2023',
+      title: 'Graduation Completed',
+      description: 'Completed B.Com degree with a focus on business fundamentals.',
       icon: GraduationCap,
       color: 'from-cyan-400 to-blue-500'
     },
     {
-      year: '2020',
-      title: 'Tech Transition',
-      description: 'Self-taught programming, started with Python and web technologies',
+      year: '2023',
+      title: 'Technical Learning Begins',
+      description: 'Started learning Python, Django, REST APIs, and Scrapy to transition into tech.',
       icon: Code,
       color: 'from-purple-400 to-pink-500'
     },
     {
-      year: '2021',
-      title: 'Specialization',
-      description: 'Focused on web scraping, data extraction, and automation tools',
+      year: 'Oct 2023',
+      title: 'Internship Start',
+      description: 'Joined a company as a Web Scraping Intern to gain hands-on experience.',
       icon: Database,
-      color: 'from-cyan-400 to-purple-500'
+      color: 'from-blue-400 to-indigo-500'
     },
     {
-      year: '2022',
-      title: 'Freelance Success',
-      description: 'Built a reputation as a reliable web scraping consultant',
-      icon: Zap,
+      year: 'Oct 2024',
+      title: 'Promotion to Consultant',
+      description: 'After one year of internship, promoted to Web Scraping Consultant.',
+      icon: TrendingUp,
       color: 'from-green-400 to-teal-500'
     },
     {
-      year: '2023',
-      title: 'Business Growth',
-      description: 'Expanded services to include AI-powered solutions and consulting',
-      icon: TrendingUp,
-      color: 'from-orange-400 to-red-500'
-    },
-    {
-      year: '2024',
-      title: 'Industry Recognition',
-      description: 'Established as a trusted expert in web scraping and data extraction',
+      year: 'Present',
+      title: 'Current Role',
+      description: 'Continuing as a Web Scraping Consultant, delivering data solutions and automation.',
       icon: Award,
       color: 'from-yellow-400 to-orange-500'
     }

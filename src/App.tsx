@@ -18,8 +18,8 @@ function App() {
       <Hero />
       <About />
       <Services />
-      <Portfolio />
-      <Blog />
+      {/* <Portfolio /> */}
+      {/* <Blog /> */}
       <Contact />
       <Footer />
       <ChatBot />

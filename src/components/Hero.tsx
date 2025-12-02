@@ -22,20 +22,22 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <button className="group relative px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25">
-              <span className="flex items-center space-x-2">
-                <span>Let's Connect</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-              </span>
-            </button>
-            <button className="px-8 py-3 border-2 border-gray-600 rounded-full font-semibold text-gray-300 hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300">
+            <a href="mailto:pshanasherin567@gmail.com">
+              <button className="group relative px-8 py-3 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full font-semibold text-white transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25">
+                <span className="flex items-center space-x-2">
+                  <span>Let's Connect</span>
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
+                </span>
+              </button>
+            </a>
+            {/* <button className="px-8 py-3 border-2 border-gray-600 rounded-full font-semibold text-gray-300 hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300">
               View Portfolio
-            </button>
+            </button> */}
           </div>
 
           <div className="flex items-center space-x-6">
             <a
-              href="https://linkedin.com/in/shana-sherin"
+              href="https://www.linkedin.com/in/shana-sherin-p/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all duration-300 hover:scale-110 group"
@@ -43,7 +45,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6 text-gray-300 group-hover:text-white" />
             </a>
             <a
-              href="https://github.com/shana-sherin"
+              href="https://github.com/Shanasherinp"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all duration-300 hover:scale-110 group"
@@ -59,7 +61,7 @@ const Hero = () => {
               <Youtube className="w-6 h-6 text-gray-300 group-hover:text-white" />
             </a>
             <a
-              href="mailto:contact@shanasherin.in"
+              href="mailto:pshanasherin567@gmail.com"
               className="p-3 bg-gray-800 rounded-full hover:bg-gradient-to-r hover:from-cyan-500 hover:to-purple-500 transition-all duration-300 hover:scale-110 group"
             >
               <Mail className="w-6 h-6 text-gray-300 group-hover:text-white" />
@@ -72,7 +74,7 @@ const Hero = () => {
               <div className="text-sm text-gray-400">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-purple-400">3+</div>
+              <div className="text-2xl font-bold text-purple-400">1.5+</div>
               <div className="text-sm text-gray-400">Years Experience</div>
             </div>
             <div className="text-center">
@@ -102,7 +104,7 @@ const Hero = () => {
             <div className="bg-gray-800/80 backdrop-blur-sm rounded-lg p-4 border border-gray-700 animate-float">
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm text-gray-300">Available for projects</span>
+                <span className="text-sm text-gray-300">Available for work</span>
               </div>
             </div>
           </div>

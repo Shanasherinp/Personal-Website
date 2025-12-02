@@ -34,13 +34,13 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'contact@shanasherin.in',
+      details: 'pshanasherin567@gmail.com',
       color: 'from-cyan-400 to-blue-500'
     },
     {
       icon: Phone,
       title: 'Phone',
-      details: '+91 9876543210',
+      details: '+91 8089744476',
       color: 'from-purple-400 to-pink-500'
     },
     {

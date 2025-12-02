@@ -69,7 +69,7 @@ const ChatBot = () => {
           botResponse = 'Absolutely! I\'d love to help with your project. Please share your requirements through the contact form or email, and I\'ll get back to you within 24 hours.';
           break;
         case 'What\'s your turnaround time?':
-          botResponse = 'Most projects are completed within 3-7 days depending on complexity. I always provide realistic timelines and keep you updated throughout the process.';
+          botResponse = 'Most projects are completed within 1-3 days depending on complexity. I always provide realistic timelines and keep you updated throughout the process.';
           break;
         default:
           botResponse = 'Great question! For detailed information, please use the contact form or email me directly. I\'m here to help!';

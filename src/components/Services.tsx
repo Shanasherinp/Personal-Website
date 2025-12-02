@@ -19,22 +19,22 @@ const Services = () => {
       color: 'from-purple-400 to-pink-500',
       bgColor: 'from-purple-500/10 to-pink-500/10'
     },
-    {
-      icon: Bot,
-      title: 'AI-Powered Solutions',
-      description: 'Intelligent automation and AI-enhanced data processing services',
-      features: ['Resume optimization', 'Cover letter generation', 'Content analysis', 'Smart filtering'],
-      color: 'from-green-400 to-teal-500',
-      bgColor: 'from-green-500/10 to-teal-500/10'
-    },
-    {
-      icon: TrendingUp,
-      title: 'Side Hustle Projects',
-      description: 'Small-scale automation projects and passive income solutions',
-      features: ['Automated workflows', 'Data monetization', 'API integrations', 'Market research'],
-      color: 'from-orange-400 to-red-500',
-      bgColor: 'from-orange-500/10 to-red-500/10'
-    }
+    // {
+    //   icon: Bot,
+    //   title: 'AI-Powered Solutions',
+    //   description: 'Intelligent automation and AI-enhanced data processing services',
+    //   features: ['Resume optimization', 'Cover letter generation', 'Content analysis', 'Smart filtering'],
+    //   color: 'from-green-400 to-teal-500',
+    //   bgColor: 'from-green-500/10 to-teal-500/10'
+    // },
+    // {
+    //   icon: TrendingUp,
+    //   title: 'Side Hustle Projects',
+    //   description: 'Small-scale automation projects and passive income solutions',
+    //   features: ['Automated workflows', 'Data monetization', 'API integrations', 'Market research'],
+    //   color: 'from-orange-400 to-red-500',
+    //   bgColor: 'from-orange-500/10 to-red-500/10'
+    // }
   ];
 
   const benefits = [

@@ -6,8 +6,8 @@ const Footer = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Blog', href: '#blog' },
+    // { name: 'Portfolio', href: '#portfolio' },
+    // { name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -21,10 +21,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/shana-sherin', name: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/shana-sherin', name: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/Shanasherinp', name: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/shana-sherin-p/', name: 'LinkedIn' },
     { icon: Youtube, href: 'https://youtube.com/@Juwassy', name: 'YouTube' },
-    { icon: Mail, href: 'mailto:contact@shanasherin.in', name: 'Email' }
+    { icon: Mail, href: 'mailto:pshanasherin567@gmail.com', name: 'Email' }
   ];
 
   return (
@@ -99,7 +99,7 @@ const Footer = () => {
               <div className="text-gray-400">
                 <strong className="text-gray-300">Email:</strong>
                 <br />
-                <a href="mailto:contact@shanasherin.in" className="hover:text-cyan-400 transition-colors duration-300">
+                <a href="mailto:pshanasherin567@gmail.com" className="hover:text-cyan-400 transition-colors duration-300">
                   contact@shanasherin.in
                 </a>
               </div>
