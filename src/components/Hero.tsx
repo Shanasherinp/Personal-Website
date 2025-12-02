@@ -70,11 +70,11 @@ const Hero = () => {
 
           <div className="flex items-center space-x-8 pt-4">
             <div className="text-center">
-              <div className="text-2xl font-bold text-cyan-400">50+</div>
+              <div className="text-2xl font-bold text-cyan-400">100+</div>
               <div className="text-sm text-gray-400">Projects Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-purple-400">1.5+</div>
+              <div className="text-2xl font-bold text-purple-400">2+</div>
               <div className="text-sm text-gray-400">Years Experience</div>
             </div>
             <div className="text-center">

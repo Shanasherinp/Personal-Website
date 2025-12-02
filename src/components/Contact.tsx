@@ -102,7 +102,7 @@ const Contact = () => {
                   'Transparent communication throughout',
                   'Competitive pricing for premium service',
                   'Post-delivery support and maintenance',
-                  'Proven track record with 50+ projects'
+                  'Proven track record with 10+ projects'
                 ].map((point, index) => (
                   <li key={index} className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0" />
