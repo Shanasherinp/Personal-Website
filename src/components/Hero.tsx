@@ -89,7 +89,7 @@ const Hero = () => {
             <div className="w-80 h-80 mx-auto rounded-full bg-gradient-to-br from-cyan-400 via-purple-500 to-pink-500 p-1 animate-pulse">
               <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
                 <img
-                  src="https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://connectv2s3.s3.ap-south-1.amazonaws.com/Media_Uploads/junks/2741de34d60b4960a8a330bbe2ea2888.HEIC "
                   alt="Shana Sherin"
                   className="w-72 h-72 rounded-full object-cover"
                 />
