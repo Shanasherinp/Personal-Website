@@ -40,7 +40,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: '+91 8089744476',
+      details: '+91 8089 XXXX 76',
       color: 'from-purple-400 to-pink-500'
     },
     {
